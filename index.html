@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="portfolio">
+    <meta name="keywords" content="포트폴리오, 웹, 퍼블리셔, web , publisher, portpolio">
+    
+    <title>Portfolio</title>
+
+    <!-- Style-->
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css"> 
+    <link rel="stylesheet" href="assets/css/fullpage.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css"/>
+    
+
+</head>
+
+<body>
+    <!-- onload = "chkSize(event)" onscroll = "headerToggle()"  -->
+
+    <!-- 로딩화면 -->
+
+    <div class="progress" id="progress"> 
+        <div class="hello" data-aos="fade-down">WELCOME</div>
+        <span class="progress-bar"></span>
+        <span class="progress-text">0</span> 
+    </div>
+
+    <!-- nav -->
+        <div class="nav">
+            <div id="menu">
+                <ul>
+                    <li><a href="#main" class="scroll">Main</a></li>
+                    <li><a href="#about" class="scroll">About</a></li>
+                    <li><a href="#skills" class="scroll">Skill</a></li>
+                    <li><a href="#portfolio" class="scroll">Portfolio</a></li>
+                    <li><a href="#animation" class="scroll">Animation</a></li>
+                    <li><a href="#contact" class="scroll">Contact</a></li> 
+                </ul>
+            </div>
+        </div> 
+
+    <!-- fullpage -->
+<div id="fullpage">
+
+    <!-- main -->    
+    <div id="main" class="section" pageNum="1">
+        <div id="btn_top">
+            <img src="back-to-top.png"/>
+        </div>
+        <div id="text" class="sec1">
+            <div>SUL JAE YEON</div>
+            
+            <strong>PORTFOLIO</strong>
+            <p><span id="typing">WEB DESIGNER, FRONT-END DEVELOPER</span></p>
+            <div class="bubbles-container">
+                <svg class="bubbles" xmlns="http://www.w3.org/2000/svg" style="overflow: visible;">
+
+                <g class="bubbles-large" stroke-width="7">
+                    <g><g transform="translate(10 940)"><circle cx="50" cy="50" r="50"/></g></g>
+                    <g><g transform="translate(373 940)"><circle cx="50" cy="50" r="50"/></g></g>
+                    <g><g transform="translate(408 940)"><circle cx="50" cy="50" r="50"/></g></g>
+                </g>
+
+                <g class="bubbles-medium" stroke-width="5">
+                    <g><g transform="translate(82 952)"><circle cx="35" cy="35" r="35"/></g></g>
+                    <g><g transform="translate(323 952)"><circle cx="35" cy="35" r="35"/></g></g>
+                    <g><g transform="translate(401 952)"><circle cx="35" cy="35" r="35"/></g></g>
+                    <g><g transform="translate(609 952)"><circle cx="35" cy="35" r="35"/></g></g>
+                </g>
+        
+                <g class="bubbles-small" stroke-width="4">
+                    <g><g transform="translate(147 984)"><circle cx="15" cy="15" r="15"/></g></g>
+                    <g><g transform="translate(255 984)"><circle cx="15" cy="15" r="15"/></g></g>
+                    <g><g transform="translate(573 984)"><circle cx="15" cy="15" r="15"/></g> </g>
+                    <g><g transform="translate(429 984)"><circle cx="15" cy="15" r="15"/></g></g>
+                    <g><g transform="translate(91 984)"><circle cx="15" cy="15" r="15"/></g></g>
+                </g>
+            </svg>
+            </div>
+        </div>
+        <div>
+            <span class="bounce">SCROLL DOWN</span>
+            <div class="scroll-downs">
+                <div class="mousey">
+                    <div class="scroller"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- about --> 
+    <div id="about" class="section" pageNum="2">
+        <span data-aos="fade-down" data-aos-easing="ease-in" data-aos-offset="200" data-aos-duration="300">ABOUT
+            <strong class="me">ME</strong>
+        </span>
+            <div id="intro" data-aos="fade-up" data-aos-easing="ease-in" data-aos-delay="450" data-aos-duration="500">
+                안녕하세요. 웹 퍼블리셔 및 프론트엔드 개발자를 꿈꾸는 <strong>설재연</strong>입니다.<br>
+                국비 교육으로 <strong> 6개월 과정의 [스마트웹&콘텐츠개발] 반응형 웹개발 (프론트엔드)(스마트혼합) </strong> 과정을 이수했습니다. <br>
+                아직은 부족함이 많지만 멈춰서지 않고 스터디에도 참가하며 꾸준히 공부하며 배우고 있습니다.<br><br>
+            </div>
+            <span id="intro2" data-aos="fade-up" data-aos-easing="ease-in" data-aos-delay="1200" data-aos-duration="700">앞으로도 정진해나가는 모습을 보여드리며 성장하는 <strong>개발자가</strong> 되겠습니다.</span>
+        </div>
+    
+    <!-- main -->      
+    <div id="skills" class="section" pageNum="3">
+        <div id="skill-text" class="sec3">
+            <span data-aos="fade-down" data-aos-easing="ease-in" data-aos-offset="200" data-aos-duration="300">MY SKILL</span>
+            <span class="js" data-aos="fade-down" data-aos-easing="ease-in" data-aos-delay="200">I used 
+                <strong data-aos="fade-down" data-aos-easing="ease-in" data-aos-delay="700">Fullpage.js</strong>
+                <strong data-aos="fade-down" data-aos-easing="ease-in" data-aos-delay="1200">aos.js</strong>
+                <strong data-aos="fade-down" data-aos-easing="ease-in" data-aos-delay="1700">swiper.js</strong> 
+            </span>
+        </div>
+
+        <div class="skill" id="sec3_1" data-aos="fade-up" data-aos-easing="ease-in" data-aos-duration="400" data-aos-delay="2500">
+            <div class="bar">
+                <div class="skill-name">HTML5</div>
+                <div class="skill-bar">
+                    <div class="skill-per" per="90%" style="max-width: 90%"></div>
+                </div>
+            </div>
+            <br>
+            <div class="bar">
+                <div class="skill-name">CSS3</div>
+                <div class="skill-bar">
+                    <div class="skill-per" per="80%" style="max-width: 80%"></div>
+                </div>
+            </div>
+            <br>
+            <div class="bar">
+                <div class="skill-name">JavaScript</div>
+                <div class="skill-bar">
+                    <div class="skill-per" per="60%" style="max-width: 60%"></div>
+                </div>
+            </div>
+            <br>
+            <div class="bar">
+                <div class="skill-name">Jquery</div>
+                <div class="skill-bar">
+                    <div class="skill-per" per="50%" style="max-width: 50%"></div>
+                </div>
+            </div>
+            <br>
+            <div class="bar">
+                <div class="skill-name">Photoshop</div>
+                <div class="skill-bar">
+                    <div class="skill-per" per="90%" style="max-width: 90%"></div>
+                </div>
+            </div>
+            <br>
+            <div class="bar">
+                <div class="skill-name">Illustrator</div>
+                <div class="skill-bar">
+                    <div class="skill-per" per="60%" style="max-width: 60%"></div>
+                </div>
+            </div>
+            <br>
+            <div class="bar">
+                <div class="skill-name">Preimere Pro</div>
+                <div class="skill-bar">
+                    <div class="skill-per" per="70%" style="max-width: 70%"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- work -->  
+    <div id="work" class="section" pageNum="4">
+        <div class="mywork" data-aos="fade-down" data-aos-easing="ease-in" data-aos-offset="200" data-aos-duration="300" >MY WORK</div>
+        <div class="swiper-container" data-aos="fade-up" data-aos-easing="ease-in" data-aos-duration="400" data-aos-delay="600">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <span class="big" id="design">Design</span><br>
+                    <span class="small">Package Design Portfolio</span>
+                        <img src="assets/img/Package_Orange.png" class="img2">
+                        <img src="assets/img/Package_PhoneCase.png" class="img3">
+                        <img src="assets/img/Package_Album.png" class="img1">
+                        <div class="btnbox">
+                            <a href="file/포트폴리오_설재연_패키지디자인용.pdf" target="_blank"><button class="btn-1" type="button"> View(PDF)</button></a> 
+                        </div>
+                </div>
+                <div class="swiper-slide">
+                    <span class="big" id="aniamtion">Animation</span>
+                        <span class="small">Space</span>
+                            <div class="stars"></div>
+                                <div id="sun"></div>
+                                <div id="earth-orbit">
+                                    <div id="earth"></div>
+                                </div>
+                        <div class="btnbox" id="btnbox2">
+                            <a href="https://codepen.io/tama48/pen/BardaeB" target="_blank"><button class="btn-2" type="button"> View(Code)</button></a> 
+                        </div>    
+                </div>
+                <div class="swiper-slide">
+                    <span class="big" id="aniamtion">Animation</span>
+                    <span class="small">Cube</span>
+                    <div class="cube">
+                        <div class="face front"></div>
+                        <div class="face back"></div>
+                        <div class="face left"></div>
+                        <div class="face right"></div>
+                        <div class="face top"></div>
+                        <div class="face bottom"></div>
+                    </div>
+                            <div class="btnbox" id="btnbox3">
+                                <a href="https://codepen.io/tama48/pen/XWEaJZB" target="_blank"><button class="btn-3" type="button"> View(Code)</button></a> 
+                            </div>    
+                </div>        
+                    <div class="swiper-slide">
+                        <span class="big">Character</span>
+                        <img src="assets/img/Charcter_1.png" class="img4">
+                        <img src="assets/img/Charcter_2.png" class="img5">
+                        <div class="btnbox" id="btnbox4">
+                            <a href="file/Protfolio_Character.pdf" target="_blank"><button class="btn-1" type="button"> View(PDF)</button></a> 
+                        </div>
+                    </div>
+            </div>        
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+    </div>
+
+    <!-- contact -->  
+    <div id="contact" class="section" pageNum="6">
+        <span data-aos="fade-down" data-aos-easing="ease-in-sine" data-aos-offset="200" data-aos-duration="300" class="contactme">CONTACT
+            <strong class="me">ME</strong>
+        </span><br>
+        <span id="text2" data-aos="fade-in" data-aos-easing="ease-in-sine" data-aos-delay="800"> 언제든 연락을 기다리겠습니다. </span>
+        <div class="mail">
+            <span data-aos="fade-up" data-aos-easing="ease-in" data-aos-duration="400" data-aos-delay="1400"> E-mail</span>
+            <span class="mail2" data-aos="fade-up" data-aos-easing="ease-in" data-aos-duration="400" data-aos-delay="1900"> tama48@naver.com</span>
+        </div>
+
+            <div class="footer_rw">
+                <div class="footer">
+                    <p class="footer_p1">THANK YOU</p>
+                    <p class="footer_p2">본 사이트는 상업적 목적이 없는 개인 포트폴리오 사이트 입니다. 해당 사이트는 1920*1080 해상도에 최적화 되었습니다.</p>
+                    <address>Thanks for visiting my Website copyright © 2022 Sul JaeYeon All Rights Reserved</address>
+                </div>
+            </div>
+    </div>
+
+</div>
+
+<!--Script-->
+    <script src="assets/js/jquery-3.2.1.min.js"></script>
+    <script src="assets/js/script.js"></script>
+    <script src="assets/js/jquery-ui.min.js"></script>
+    <script src="assets/js/jquery.easing.min.js"></script>
+    <script src="assets/js/jquery.fullpage.js"></script>
+    <script src="assets/js/imagesloaded.pkgd.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+            
+    <script>
+        // AOS 스크립트 초기화 
+        AOS.init();
+
+            //페이지 로딩 imageProgress
+            function imagesProgress(){
+                var $container = $('#progress'),
+                    $progressText = $container.find('.progress-text'),
+                    imgLoad = imagesLoaded('body'),	
+                    imgTotal = imgLoad.images.length,	
+                    imgLoaded = 0,										
+                    current = 0,							
+                    progressTimer = setInterval(updateProgress, 1000 / 60);
+        
+                imgLoad.on('progress', function(){
+                    imgLoaded++;
+                });
+        
+                function updateProgress(){
+                    var target = ( imgLoaded / imgTotal) * 100;
+        
+                    current += ( target - current) * 0.1;
+                    $progressText.text( Math.floor(current) + '%' );
+        
+                    if(current >= 100){
+                        clearInterval(progressTimer);
+                    
+                        $container.animate({top: '-110%'},1000,'easeInOutQuint');
+        
+                        $('#main').addClass('active');
+                    }
+                    if(current > 99.98){
+                        current = 100;
+                    }
+                }	
+            };
+        
+            imagesProgress()
+
+            var swiper = new Swiper('.swiper-container', {
+                loop: true,
+
+                pagination: {
+                    el: '.swiper-pagination',
+                    clickable: true,
+                },
+
+                navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+});
+
+        </script>        
+    </body>
+</html>
