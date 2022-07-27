@@ -951,6 +951,21 @@ button:hover{
    backface-visibility: visible;
 }
 
+.cube2{
+	animation: rotate2 5s linear infinite;
+   -webkit-animation : rotate2 5s linear infinite;
+	bottom: 0;
+	height: 300px;
+	left: 0;
+	margin: auto;
+	position: absolute;
+	transform-style: preserve-3d;
+	right: 0;
+	top: 0;
+	width: 300px;
+   backface-visibility: visible;
+}
+
 @keyframes rotate {
 	100% {
 		transform: rotateY(360deg) rotateX(720deg) rotateZ(1080deg);
@@ -963,44 +978,35 @@ button:hover{
 	}
 }
 
-.face {
-	height: 100%;
-	left: 0;
-	position: absolute;
-	top: 0;
-	width: 100%;
-   opacity: 0.5;
+@keyframes rotate2 {
+	100% {
+		transform: rotateY(1080deg) rotateX(720deg) rotateZ(360deg);
+	}
 }
 
-.front {
-	background: #ACACAC;
-	transform: translateZ(50px);
+@-webkit-keyframes rotate2 {
+	100% {
+		transform: rotateY(1080deg) rotateX(720deg) rotateZ(360deg);
+	}
 }
 
-.back {
-	background: #797979;
-	transform: translateZ(-50px);
-}
+.face { height: 100%; left: 0; position: absolute; top: 0; width: 100%; opacity: 0.5; }
+.face2 { height: 100%; left: 0; position: absolute; top: 0; width: 100%; opacity: 0.3; }
 
-.left {
-	background: #959595;
-	transform: translateX(-50px) rotateY(90deg);
-}
+.front { background: #ebe0e0; transform: translateZ(50px); }
+.back { background: #d8d0d0; transform: translateZ(-50px); }
+.left { background: #c2bcbc; transform: translateX(-50px) rotateY(90deg);}
+.right { background: #878787; transform: translateX(50px) rotateY(90deg) }
+.top { background: #b1aeae; transform: translateY(-50px) rotateX(90deg) }
+.bottom { background: #9c9b9b; transform: translateY(50px) rotateX(90deg) }
 
-.right {
-	background: #878787;
-	transform: translateX(50px) rotateY(90deg);
-}
+.front2 { background: #c25beb; transform: translateZ(150px); }
+.back2 { background: #a24ed3; transform: translateZ(-150px); }
+.left2 { background: #8e31cc; transform: translateX(-150px) rotateY(90deg);}
+.right2 { background: #a767e2; transform: translateX(150px) rotateY(90deg) }
+.to2p { background: #a147c5; transform: translateY(-150px) rotateX(90deg) }
+.bottom2 { background: #8f5cc9; transform: translateY(150px) rotateX(90deg) }
 
-.top {
-	background: #CBCBCB;
-	transform: translateY(-50px) rotateX(90deg);
-}
-
-.bottom {
-	background: #636363;
-	transform: translateY(50px) rotateX(90deg);
-}
 
 #contact {
    background-color: #FAE080;
